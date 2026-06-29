@@ -4,6 +4,7 @@ import Pricing from "./pages/Pricing";
 import Homepage from "./pages/Homepage";
 import PageNotFound from "./pages/PageNotFound";
 import AppLayout from "./pages/AppLayout";
+import Login from "./pages/Login";
 //import AppNav from "./components/AppNav";
 
 //import AppLayout from "./pages/AppLayout";
@@ -23,6 +24,7 @@ function App() {
                     <AppLayout/>
                 }
               />
+      <Route path="login" element={<Login />} />
       <Route path="*" element={<PageNotFound />} />
      </Routes>
     </BrowserRouter>
