@@ -5,14 +5,18 @@ import Homepage from "./pages/Homepage";
 import PageNotFound from "./pages/PageNotFound";
 import AppLayout from "./pages/AppLayout";
 import Login from "./pages/Login";
+import CityList from "./components/CityList";
+// import { useEffect, useState } from "react";
+import { CitiesProvider } from "./contexts/CitiesContext";
 //import AppNav from "./components/AppNav";
 
 //import AppLayout from "./pages/AppLayout";
 
+
 function App() {
 
-
   return (
+    <CitiesProvider>
     <BrowserRouter>
      <Routes>
       <Route path="/" element={<Homepage/>} />
@@ -24,7 +28,7 @@ function App() {
                 }
               >
                 <Route index element={<p>Cities</p>} />
-                <Route  path="cities"element={<p>Cities</p>}/>
+                <Route  path="cities"element={<CityList/>}/>
                 <Route path="countries"element={<p>Countries</p>}/>
                 <Route path="form"element={<p>Form</p>}/>
                 </Route>
@@ -32,6 +36,7 @@ function App() {
       <Route path="*" element={<PageNotFound />} />
      </Routes>
     </BrowserRouter>
+    </CitiesProvider>
   )
 }
 
