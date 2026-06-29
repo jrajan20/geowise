@@ -26,4 +26,3 @@
 .nav a:global(.active) {
   background-color: var(--color-dark--0);
 }
-
