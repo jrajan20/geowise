@@ -8,6 +8,7 @@ import AppLayout from "./pages/AppLayout";
 import Login from "./pages/Login";
 import CityList from "./components/CityList";
 import CountryList from "./components/CountryList";
+import City from "./components/City";
 // import { useEffect, useState } from "react";
 import { CitiesProvider } from "./contexts/CitiesContext";
 //import AppNav from "./components/AppNav";
@@ -31,6 +32,7 @@ function App() {
               >
                 <Route index element={<p>Cities</p>} />
                 <Route  path="cities"element={<CityList/>}/>
+                <Route path="cities/:id" element={<City/>} />
                 <Route path="countries"element={<CountryList/>}/>
                 <Route path="form"element={<p>Form</p>}/>
                 </Route>
