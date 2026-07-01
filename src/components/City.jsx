@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useCities } from "../contexts/CitiesContext";
-// import BackButton from "./BackButton";
+import BackButton from "./BackButton";
 import styles from "./City.module.css";
 import Spinner from "./Spinner";
 
@@ -60,9 +60,9 @@ function City() {
         </a>
       </div>
 
-      {/* <div>
+      <div>
         <BackButton />
-      </div> */}
+      </div>
     </div>
   );
 }
