@@ -1,4 +1,4 @@
-import lazy from "react";
+import {lazy, Suspense} from "react";
 import { BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 
 import { AuthProvider } from "./contexts/FakeAuthContext";
@@ -11,6 +11,7 @@ import CityList from "./components/CityList";
 import CountryList from "./components/CountryList";
 import City from "./components/City";
 import Form from "./components/Form";
+import SpinnerFullPage from "./components/SpinnerFullPage";
 
 const Homepage = lazy(() => import("./pages/Homepage"));
 const Product = lazy(() => import("./pages/Product"));
@@ -29,6 +30,7 @@ function App() {
     <AuthProvider>
       <CitiesProvider>
         <BrowserRouter>
+        <Suspense fallback={<SpinnerFullPage />}>
             <Routes>
               <Route index element={<Homepage />} />
               <Route path="product" element={<Product />} />
@@ -50,7 +52,7 @@ function App() {
               </Route>
               <Route path="*" element={<PageNotFound />} />
             </Routes>
-        
+        </Suspense>
         </BrowserRouter>
       </CitiesProvider>
     </AuthProvider>
