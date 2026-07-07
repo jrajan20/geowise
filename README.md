@@ -27,7 +27,8 @@ WorldWise is a full-stack-style React application that lets you log every city y
 
 ### Login
 
-<img width="1295" height="652" alt="Screenshot From 2026-07-07 07-03-30" src="https://github.com/user-attachments/assets/0c906909-326e-4ee3-9138-563c532379a7" />
+<img width="1295" height="652" alt="Screenshot From 2026-07-07 07-03-44" src="https://github.com/user-attachments/assets/9356564c-b1e9-4f43-af0d-03b0e82cbb14" />
+
 
 ### City List
 
