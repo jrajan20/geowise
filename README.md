@@ -21,17 +21,35 @@ WorldWise is a full-stack-style React application that lets you log every city y
 
 ## Screenshots
 
-| Homepage                                       | Login                                    |
-| ---------------------------------------------- | ---------------------------------------- |
-| ![Homepage](./public/screenshots/homepage.png) | ![Login](./public/screenshots/login.png) |
+### Homepage
 
-| City list                                  | Country grid                                     |
-| ------------------------------------------ | ------------------------------------------------ |
-| ![Cities](./public/screenshots/cities.png) | ![Countries](./public/screenshots/countries.png) |
+<img width="1295" height="652" alt="Screenshot From 2026-07-07 07-03-30" src="https://github.com/user-attachments/assets/19f3bfaa-e933-4a12-98b8-1da335add352" />
 
-| City detail                                          | Add city form                                  |
-| ---------------------------------------------------- | ---------------------------------------------- |
-| ![City detail](./public/screenshots/city-detail.png) | ![Add city](./public/screenshots/add-city.png) |
+### Login
+
+<img width="1295" height="652" alt="Screenshot From 2026-07-07 07-03-30" src="https://github.com/user-attachments/assets/0c906909-326e-4ee3-9138-563c532379a7" />
+
+### City List
+
+<img width="1295" height="652" alt="Screenshot From 2026-07-07 07-06-39" src="https://github.com/user-attachments/assets/369cb8ce-772a-45da-9c85-33dc1cd7ff30" />
+
+
+### Country Grid
+
+<img width="1295" height="652" alt="Screenshot From 2026-07-07 07-06-53" src="https://github.com/user-attachments/assets/748abe17-4467-4513-88dd-d134e2ba164d" />
+
+### City Detail
+
+<img width="1295" height="652" alt="Screenshot From 2026-07-07 07-07-05" src="https://github.com/user-attachments/assets/c2475136-142b-4612-b021-4c9b27e4ad10" />
+
+
+### Add City Form
+
+<img width="1295" height="652" alt="Screenshot From 2026-07-07 07-08-11" src="https://github.com/user-attachments/assets/22e2761a-dc97-4fa6-b557-33284ae39200" />
+
+<img width="1295" height="652" alt="Screenshot From 2026-07-07 07-08-22" src="https://github.com/user-attachments/assets/269dcd4d-cfed-43bb-8eb4-99624ca6863f" />
+
+
 
 ---
 
