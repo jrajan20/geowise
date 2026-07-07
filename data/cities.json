@@ -71,6 +71,18 @@
       },
       "notes": "xZXx",
       "id": "JZOtbqkeYQM"
+    },
+    {
+      "cityName": "Toronto",
+      "country": "Canada",
+      "emoji": "🇨🇦",
+      "date": "2026-07-07T11:07:31.293Z",
+      "position": {
+        "lat": "43.74728909225908",
+        "lng": "-79.398193359375"
+      },
+      "notes": "I live here",
+      "id": "GCvbKQVGzxM"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
